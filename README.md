@@ -25,7 +25,7 @@ A simple Spring Boot-based Todo management application using H2 Database, Thymel
    http://localhost:8080/todos  
 5. Access H2 Console:  
    http://localhost:8080/h2-console  
-   (JDBC URL: jdbc:h2:mem:todo-db)
+   (JDBC URL: jdbc:h2:file:./data/todo-db)
 
 ## Author
 Yash Kaushik
